@@ -12,7 +12,6 @@ LUCI_DEPENDS:=+luci-theme-kucat
 
 define Package/$(PKG_NAME)/conffiles
 /etc/config/kucat
-/www/luci-static/kucat/background
 endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
