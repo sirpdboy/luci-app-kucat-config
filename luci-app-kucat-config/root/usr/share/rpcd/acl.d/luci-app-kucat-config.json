@@ -4,11 +4,10 @@
 		"description": "Grant UCI access for luci-app-kucat-config",
 		"read": {
 			"file": {
-				"/www/luci-static/kucat/bg/*": [ "list2" ]
-				"/www/luci-static/resources/background/*": [ "list" ]
+				"/www/luci-static/kucat/bg/*": [ "list" ]
 			},
 			"ubus": {
-				"luci.kucat": [ "avail", "remove", "rename", "remove2", "rename2"  ]
+				"luci.kucat": [ "avail", "remove", "rename" ]
 			},
 			"uci": [ "kucat" ]
 		},

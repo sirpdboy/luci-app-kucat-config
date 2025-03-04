@@ -7,7 +7,7 @@ msgstr "KuCat主题设置"
 msgid "Theme Config"
 msgstr "主题设置"
 
-msgid "Set and manage features such as KuCat themed background wallpaper, main background color, partition background, transparency, blur, toolbar retraction and shortcut pointing."
+msgid "Set and manage features such as KuCat theme background wallpaper, main background color, partition background, transparency, blur, toolbar retraction and shortcut pointing."
 msgstr "设置和管理酷猫主题登陆壁纸、桌面壁纸、主背景色、隔栏背景、透明度、模糊度、工具栏收放和快捷指向等功能。"
 
 msgid "Wallpaper Source"
@@ -172,8 +172,8 @@ msgstr "kucat 主题登录背景壁纸上传和管理"
 msgid "Background file list"
 msgstr "背景文件列表"
 
-msgid ""
-msgstr ""
+msgid "Progress bar Font Color"
+msgstr "进度条字体颜色"
 
 msgid ""
 msgstr ""

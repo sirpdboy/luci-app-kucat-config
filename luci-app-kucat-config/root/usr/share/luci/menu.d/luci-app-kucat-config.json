@@ -1,10 +1,10 @@
 {
-	"admin/system/kucat-config/kucat-config": {
+	"admin/system/kucat-config": {
 		"title": "KuCat Theme Config",
-		"order": 90,
+		"order": 88,
 		"action": {
 			"type": "view",
-			"path": "kucat-config/kucat-config"
+			"path": "kucat-config"
 		},
 		"depends": {
 			"acl": [ "luci-app-kucat-config" ],
@@ -12,20 +12,4 @@
 		}
 	}
 
-	"admin/system/kucat-config/uploaddeskbg": {
-		"title": "Desktop background upload",
-		"order": 20,
-		"action": {
-			"type": "view",
-			"path": "kucat-config/uploaddeskbg"
-		}
-	},
-	"admin/system/kucat-config/uploadloginbg": {
-		"title": "Login Background Upload",
-		"order": 30,
-		"action": {
-			"type": "view",
-			"path": "kucat-config/uploadloginbg"
-		}
-	}
 }
