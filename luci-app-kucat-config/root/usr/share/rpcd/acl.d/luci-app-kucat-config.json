@@ -1,0 +1,11 @@
+{
+	"luci-app-kucat-config": {
+		"description": "Grant UCI access for luci-app-kucat-config",
+		"read": {
+			"uci": [ "kucat-config" ]
+		},
+		"write": {
+			"uci": [ "kucat-config" ]
+		}
+	}
+}
