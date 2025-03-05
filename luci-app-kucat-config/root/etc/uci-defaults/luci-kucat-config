@@ -1,6 +1,0 @@
-#!/bin/sh
-
-[ -s /usr/lib/lua/luci/view/themes/argon/sysauth.htm ] && sed -i 's,media .. \"\/b,resource .. \"\/b,g' /usr/lib/lua/luci/view/themes/argon/sysauth.htm
-rm -f /tmp/luci-indexcache
-exit 0
-
