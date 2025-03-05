@@ -1,0 +1,180 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "KuCat Theme Config"
+msgstr "KuCat主题设置"
+
+msgid "Theme Config"
+msgstr "主题设置"
+
+msgid "Set and manage features such as KuCat theme background wallpaper, main background color, partition background, transparency, blur, toolbar retraction and shortcut pointing."
+msgstr "设置和管理酷猫主题登陆壁纸、桌面壁纸、主背景色、隔栏背景、透明度、模糊度、工具栏收放和快捷指向等功能。"
+
+msgid "Wallpaper Source"
+msgstr "壁纸来源"
+
+msgid "Local wallpaper"
+msgstr "本地壁纸库"
+
+msgid "Auto download Bing wallpaper"
+msgstr "自动下载Bing每日壁纸"
+
+msgid "Auto download unsplash wallpaper"
+msgstr "自动下载unsplash壁纸"
+
+msgid "Auto download Iciba wallpaper"
+msgstr "自动下载词霸每日壁纸"
+
+msgid "Auto download Bird 4K wallpaper"
+msgstr "自动下载360小鸟4K高清壁纸(每日4千张随机选)"
+
+msgid "Wallpaper synchronization"
+msgstr "壁纸同步"
+
+msgid "Refreshing mode"
+msgstr "清爽模式"
+
+msgid "Enable Daily Word"
+msgstr "启用每日一言"
+
+msgid "Care mode (large font)"
+msgstr "关怀模式(大字体)"
+
+msgid "Expand Toolbar"
+msgstr "展开导航栏"
+
+msgid "Services Ssrkey settings"
+msgstr "服务相关快捷键设置"
+
+msgid "System Userkey settings"
+msgstr "系统相关快捷键设置"
+
+msgid "Status Homekey settings"
+msgstr "状态相关快捷键设置"
+
+msgid "Color scheme list"
+msgstr "颜色配置方案列表"
+
+msgid "Enable color matching"
+msgstr "启用配色方案"
+
+msgid "Theme mode"
+msgstr "主题模式"
+
+msgid "Light"
+msgstr "亮色"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "Dark"
+msgstr "暗色"
+
+msgid "RoyalBlue"
+msgstr "皇家高端蓝"
+
+msgid "MediumSeaGreen"
+msgstr "中海清爽绿"
+
+msgid "SandyBrown"
+msgstr "桑迪布朗黄"
+
+msgid "Black tea eye protection gray"
+msgstr "黑茶护眼灰"
+
+msgid "TomatoRed"
+msgstr "番茄别样红"
+
+msgid "Cool night time(gray and dark)"
+msgstr "炫酷黑夜时空(灰度暗)"
+
+msgid "Cool Ocean Heart (transparent and bright)"
+msgstr "炫酷海洋之心(透明亮)"
+
+msgid "Enable wallpaper"
+msgstr "启用壁纸"
+
+msgid "Wallpaper blur radius"
+msgstr "壁纸模糊半径"
+
+msgid "Wallpaper transparency"
+msgstr "壁纸透明度"
+
+msgid "Main Background color(RGB)"
+msgstr "主背景色(RGB)"
+
+msgid "Fence background transparency"
+msgstr "隔栏背景透明度"
+
+msgid "Fence background(RGB)"
+msgstr "隔栏背景色(RGB)"
+
+msgid "Action"
+msgstr "操作"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Expecting: %s"
+msgstr "请输入：%s"
+
+msgid "Failed to upload file: %s."
+msgstr "上传文件失败：%s。"
+
+msgid "Filename"
+msgstr "文件名"
+
+msgid "Files will be uploaded to <code>%s</code>."
+msgstr "文件将被上传至<code>%s</code>。"
+
+msgid "Modified date"
+msgstr "修改时间"
+
+msgid "No files found."
+msgstr "没有找到文件。"
+
+msgid "Save current settings"
+msgstr "保存当前设置"
+
+msgid "Save settings"
+msgstr "保存设置"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Upload background"
+msgstr "上传背景"
+
+msgid "Upload background (available space: %1024.2mB)"
+msgstr "上传背景（可用空间：%1024.2mB）"
+
+msgid "Upload..."
+msgstr "上传..."
+
+msgid ""
+"You can upload files such as gif/jpg/mp4/png/webm/webp files, to change the "
+"login page background."
+msgstr ""
+"你可以上传 gif/jpg/mp4/png/webm/webp 等格式的文件，以创建自己喜欢的登录界面。"
+
+msgid "Login Background Upload"
+msgstr "登录壁纸上传"
+
+msgid "Desktop background upload"
+msgstr "桌面壁纸上传"
+
+msgid "Kucat Theme Desktop Background Wallpaper Upload and Management."
+msgstr "kucat主题桌面背景壁纸文件上传和管理。"
+
+msgid "Kucat theme login background wallpaper upload and management."
+msgstr "kucat 主题登录背景壁纸上传和管理"
+
+msgid "Background file list"
+msgstr "背景文件列表"
+
+msgid "Progress bar Font Color"
+msgstr "进度条字体颜色"
+
+msgid ""
+msgstr ""
+
