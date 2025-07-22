@@ -10,8 +10,8 @@ LUCI_TITLE:=LuCI support for Kucat theme setting by sirpdboy
 LUCI_DEPENDS:=+curl
 LUCI_PKGARCH:=all
 
-PKG_VERSION:=1.1.0
-PKG_RELEASE:=20250306
+PKG_VERSION:=1.1.1
+PKG_RELEASE:=20250722
 
 define Package/$(PKG_NAME)/conffiles
 /etc/config/kucat

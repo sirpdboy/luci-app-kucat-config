@@ -1,13 +1,20 @@
 local nxfs = require 'nixio.fs'
 local wa = require 'luci.tools.webadmin'
-local opkg = require 'luci.model.ipkg'
 local sys = require 'luci.sys'
 local http = require 'luci.http'
 local nutil = require 'nixio.util'
 local name = 'kucat'
 local uci = require 'luci.model.uci'.cursor()
 
-local fstat = nxfs.statvfs(opkg.overlay_root())
+local function get_root_fs()
+    if nxfs.stat('/overlay') then
+        return '/overlay'
+    else
+        return '/'
+    end
+end
+
+local fstat = nxfs.statvfs(get_root_fs())
 local space_total = fstat and fstat.blocks or 0
 local space_free = fstat and fstat.bfree or 0
 local space_used = space_total - space_free
@@ -29,9 +36,9 @@ ful.submit = false
 
 sul = ful:section(SimpleSection, '', translate("Upload file to '/www/luci-static/kucat/bg/'"))
 fu = sul:option(FileUpload, '')
-fu.template = 'advancedplus/other_upload'
+fu.template = 'kucat-config/other_upload'
 um = sul:option(DummyValue, '', nil)
-um.template = 'advancedplus/other_dvalue'
+um.template = 'kucat-config/other_dvalue'
 
 local dir, fd
 dir = '/www/luci-static/kucat/bg/'
