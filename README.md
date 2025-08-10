@@ -15,7 +15,7 @@
 
 ![screenshots](https://raw.githubusercontent.com/sirpdboy/openwrt/master/doc/说明1.jpg)
 
-# [luci-theme-kucat](https://github.com/sirpdboy/luci-theme-kucat)
+# [luci-app-kucat-config](https://github.com/sirpdboy/luci-app-kucat-config)
 - Development time: December 2021
 - Release time: February 2023
 - Open source date: April 2023
