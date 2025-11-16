@@ -1,7 +1,0 @@
-#!/bin/sh
-chmod +x /etc/init.d/kucat
-
-[ "x$(uci -q get kucat.@basic[0].mode)" = "x" ]  && /etc/config/kucat reset
-[ -s /usr/lib/lua/luci/view/themes/argon/sysauth.htm ] && sed -i 's,media .. \"\/b,resource .. \"\/b,g' /usr/lib/lua/luci/view/themes/argon/sysauth.htm
-rm -f /tmp/luci-indexcache
-exit 0
