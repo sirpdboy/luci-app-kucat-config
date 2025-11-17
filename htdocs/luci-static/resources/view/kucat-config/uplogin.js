@@ -25,6 +25,12 @@ var callRenamekucat = rpc.declare({
     expect: { '': {} }
 });
 
+var callReadFile = rpc.declare({
+    object: 'luci.kucatconfig',
+    method: 'read_file',
+    params: ['filename'],
+    expect: { '': {} }
+});
 var bg_path = '/www/luci-static/resources/background/';
 
 return view.extend({
@@ -481,7 +487,7 @@ return view.extend({
             });
             
             files.forEach(L.bind(function(file) {
-                var previewUrl = bg_path + file.name;
+                var previewUrl = '/luci-static/resources/background/' + file.name;
                 var timestamp = new Date().getTime();
                 
                 // 列表视图行

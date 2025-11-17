@@ -23,8 +23,8 @@ msgstr "KuCat设置"
 msgid "You can set KuCat theme font size, color scheme, shortcut tools, and manage login and desktop background images here."
 msgstr "您可以在这里设置KuCat主题字体大小,颜色方案,快捷工具,并管理登录背景和桌面背景图片."
 
-msgid "Local wallpapers need to be uploaded by oneself, and online downloads will only be automatically downloaded on the first visit every day, reducing dependence on the internet and making it smoother."
-msgstr "本地壁纸需要自己上传，在线下载的只有每天第一次访问才会自动下载，减少频繁远程访问图片，更流畅。"
+msgid "Local wallpapers need to be uploaded by oneself, and those that are automatically downloaded will only be downloaded on the first visit every day, reducing frequent remote access and making usage smoother."
+msgstr "本地壁纸需要自己上传，自动下载的只有每天第一次访问才会自动下载，减少频繁远程访问，使用更流畅。"
 
 msgid "Wallpaper Source"
 msgstr "壁纸来源"

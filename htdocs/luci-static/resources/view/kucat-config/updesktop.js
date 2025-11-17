@@ -25,6 +25,13 @@ var callRenamekucat = rpc.declare({
     expect: { '': {} }
 });
 
+var callReadFile = rpc.declare({
+    object: 'luci.kucatconfig',
+    method: 'read_file',
+    params: ['filename'],
+    expect: { '': {} }
+});
+
 var bg_path = '/www/luci-static/kucat/background/';
 
 return view.extend({
@@ -481,7 +488,7 @@ return view.extend({
             });
             
             files.forEach(L.bind(function(file) {
-                var previewUrl = bg_path + file.name;
+                var previewUrl = '/luci-static/kucat/background/' + file.name;
                 var timestamp = new Date().getTime();
                 
                 // 列表视图行
@@ -623,7 +630,7 @@ return view.extend({
                             'class': 'preview-modal-image',
                             'src': previewUrl + '?t=' + new Date().getTime(),
                             'alt': file.name,
-			    'onerror': "this.style.display='none'; this.parentNode.style.display='block';this.parentNode.removeChild(this);"
+                            'onerror': "this.parentNode.removeChild(this);"
                         }),
                         E('div', { 'class': 'preview-modal-info' }, [
                             E('div', { 'style': 'font-weight: bold;' }, file.name),

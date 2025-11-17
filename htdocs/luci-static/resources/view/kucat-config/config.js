@@ -28,7 +28,7 @@ return view.extend({
 
 		// Wallpaper Source
 		o = s.option( form.ListValue, 'background', _('Wallpaper Source'), 
-			_('Local wallpapers need to be uploaded by oneself, and online downloads will only be automatically downloaded on the first visit every day, reducing frequent remote access to images and making them smoother.'));
+			_('Local wallpapers need to be uploaded by oneself, and those that are automatically downloaded will only be downloaded on the first visit every day, reducing frequent remote access and making usage smoother.'));
 		o.value('0', _('Local wallpaper'));
 		o.value('1', _('Auto download Iciba wallpaper'));
 		o.value('2', _('Auto download unsplash wallpaper'));
