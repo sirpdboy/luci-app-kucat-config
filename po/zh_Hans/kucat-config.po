@@ -23,8 +23,8 @@ msgstr "KuCat设置"
 msgid "You can set KuCat theme font size, color scheme, shortcut tools, and manage login and desktop background images here."
 msgstr "您可以在这里设置KuCat主题字体大小,颜色方案,快捷工具,并管理登录背景和桌面背景图片."
 
-msgid "Here you can set the mode of the theme and change the proxy tool icon in the navigation bar. [Recommend Chrome]"
-msgstr "这里可以设置主题的模式和更换导航栏的代理工具图标。[建议使用 Chrome]"
+msgid "Local wallpapers need to be uploaded by oneself, and online downloads will only be automatically downloaded on the first visit every day, reducing dependence on the internet and making it smoother."
+msgstr "本地壁纸需要自己上传，在线下载的只有每天第一次访问才会自动下载，减少频繁远程访问图片，更流畅。"
 
 msgid "Wallpaper Source"
 msgstr "壁纸来源"
@@ -177,9 +177,9 @@ msgid "Upload..."
 msgstr "上传..."
 
 msgid ""
-"You can upload files in formats such as gif/jpg/png/webm to create your favorite wallpapers"
+"You can upload files in formats such as gif/jpg/png/webp to create your favorite wallpapers"
 msgstr ""
-"你可以上传gif/jpg/png/webm等格式文件，以创建自己喜欢壁纸。"
+"你可以上传gif/jpg/png/webp等格式文件，以创建自己喜欢壁纸。"
 
 
 msgid "Background file list"
@@ -220,14 +220,10 @@ msgid ""
 msgstr ""
 "文件上传成功！"
 
-msgid "Failed to delete file."
-msgstr "删除文件失败."
 
 msgid "File deleted successfully!"
 msgstr "文件删除成功！"
 
-msgid "Are you sure you want to delete %s?"
-msgstr "你确定要删除%s?"
 
 msgid "Failed to upload file: %s"
 msgstr "文件上传失败：%s"
@@ -241,32 +237,74 @@ msgstr "可用空间: %1024.2mB"
 msgid "No files found."
 msgstr "没有文件"
 
-msgid ""
-msgstr ""
+msgid "Basic Settings"
+msgstr "基本设置"
+
+msgid "List View"
+msgstr "列表显示"
+
+msgid "Grid View"
+msgstr "网格显示"
+
+msgid "Select All"
+msgstr "全选"
+
+msgid "Invert Selection"
+msgstr "反选"
+
+msgid "Select None"
+msgstr "取消"
+
+msgid "Delete Selected"
+msgstr "删除所选"
+
+msgid "Size: %1024.2mB, Modified: %s"
+msgstr "大小: %1024.2mB, 时间: %s"
+
+msgid "Selected: %d of %d files"
+msgstr "选择: %d 个 共 %d 个文件"
+
+msgid "Selected: <strong>All %d files</strong>"
+msgstr "选择<strong>全部 %d 个文件</strong>"
+
+msgid "Unknow file"
+msgstr "未知图片"
+
+msgid "Click to view larger preview"
+msgstr "点击预览大图"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Selected: 0 files"
+msgstr "选择: 0 个文件"
+
+msgid "Delete operation failed: %s"
+msgstr "删除失败: %s"
+
+msgid "Some files failed to delete."
+msgstr "一些文件删除失败"
+
+msgid "Are you sure you want to delete %d selected files?"
+msgstr "你确定删除选择的 %d 个文件?"
+
+msgid "Please select files to delete."
+msgstr "请选择要删除的文件"
 
 msgid ""
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid ""
 msgstr ""
 
-msgid ""
-msgstr ""
 
 msgid ""
 msgstr ""
 
-msgid ""
-msgstr ""
-
-msgid ""
-msgstr ""
-
-msgid ""
-msgstr ""
 
 msgid ""
 msgstr ""

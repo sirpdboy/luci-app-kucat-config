@@ -8,7 +8,7 @@
         }
     },
     "admin/system/kucat-config/config": {
-        "title": "KuCat Theme Config",
+        "title": "Basic Settings",
         "order": 10,
         "action": {
             "type": "view",
