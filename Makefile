@@ -22,6 +22,7 @@ endef
 
 define Package/$(PKG_NAME)/postinst
 #!/bin/sh
+chmod +x /etc/init.d/kucat
 rm -f /tmp/luci-*
 endef
 
