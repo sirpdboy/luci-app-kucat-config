@@ -1,3 +1,10 @@
+/*
+ *  luci-app-kucat-config
+ *  Copyright (C) 2021-2026 The Sirpdboy <herboy2008@gmail.com> 
+ *
+ *  Licensed to the public under the Apache License 2.0
+ */
+
 'use strict';
 'require form';
 'require fs';

@@ -5,7 +5,6 @@
         "action": {
             "type": "firstchild"
         }
-
     },
     "admin/system/kucat-config/config": {
         "title": "Basic Settings",
@@ -23,6 +22,15 @@
             "path": "kucat-config/schemes"
         }
     },
+
+    "admin/system/kucat-config/menu-config": {
+        "title": "Menu Configuration",
+        "order": 25,
+        "action": {
+            "type": "view",
+            "path": "kucat-config/menu-config"
+        }
+    },
     "admin/system/kucat-config/updesktop": {
         "title": "Desktop Wallpaper Upload",
         "order": 30,
@@ -31,6 +39,7 @@
             "path": "kucat-config/updesktop"
         }
     },
+
     "admin/system/kucat-config/uplogin": {
         "title": "Login Wallpaper Upload",
         "order": 40,

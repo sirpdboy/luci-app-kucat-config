@@ -12,12 +12,14 @@
 				"/tmp/kucat_*": [ "read", "write" ], 
 				"/tmp/upload/*": [ "list", "read" ],
 				"/tmp/*": [ "stat" ] ,
+				"/etc/config/kucat": [ "read" ] ,
 				"/dev/urandom": [ "read" ]
 			},
 			"ubus": {
 				"luci.kucatconfig": [ "space", "del", "rename", "deld", "renamed", "read_file" ],
 				"file": [ "list", "read", "write", "stat", "exec" ],
 				"uci": [ "get", "state" ],
+				"luci": [ "getMenuConfig" ],
 				"session": [ "access" ]
 			},
 			"uci": [ "kucat", "system" ]
@@ -31,6 +33,7 @@
 				"/www/luci-static/kucat/background/*": [ "write", "read", "delete", "upload" ],  
 				"/www/luci-static/resources/background/*": [ "write", "read", "delete", "upload" ],
 				"/www/luci-static/kucat/custom.css": [ "write", "read" ],
+				"/etc/config/kucat": [ "write" ],
 				"/tmp/": [ "write", "exec" ] 
 			},
 			"ubus": {
@@ -38,6 +41,7 @@
 				"luci.kucatconfig": [ "space", "del", "rename", "deld", "renamed", "read_file" ],
 				"uci": [ "set", "add", "delete", "commit", "reorder", "apply" ],
 				"service": [ "reload", "restart", "stop", "start" ],
+				"luci": [ "setMenuConfig" ],
 				"session": [ "login" ]
 			},
 			"uci": [ "kucat" ]

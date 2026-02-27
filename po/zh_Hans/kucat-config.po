@@ -32,6 +32,9 @@ msgstr "壁纸来源"
 msgid "Local wallpaper"
 msgstr "本地壁纸库"
 
+msgid "Menu Configuration"
+msgstr "菜单配置"
+
 msgid "Auto download Bing wallpaper"
 msgstr "自动下载Bing每日壁纸"
 
@@ -181,6 +184,50 @@ msgstr "0：透明，1：不透明（建议：重度透明0.1）"
 msgid "RGB values, such as '255,0,0' for red, suggest dark values"
 msgstr "RGB值，例如红色为'255,0,0'，建议深色值"
 
+msgid "KuCat Menu Configuration"
+msgstr "KuCat自定义菜单配置"
+
+msgid "Configure the menu displayed in custom mode. Select items and use the buttons to switch between lists."
+msgstr "配置在自定义模式下显示的菜单。选择项目并使用按钮在列表之间切换。"
+
+msgid "Custom Menu"
+msgstr "自定义菜单"
+
+msgid "Full Menus"
+msgstr "全部菜单"
+
+msgid "items"
+msgstr "条"
+
+msgid "Switch to Full Menus"
+msgstr "切换全部菜单"
+
+msgid "Switch to Custom Menus"
+msgstr "切换自定义菜单"
+
+msgid "Commonly Used"
+msgstr "推荐"
+
+msgid "Select recommended basic menu items"
+msgstr "选择常用菜单"
+
+msgid "Information"
+msgstr "信息"
+
+msgid "No items selected"
+msgstr "没有选择项目"
+
+msgid "items moved to Custom Menu"
+msgstr "项目已移至自定义菜单"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "items removed from Custom Menu"
+msgstr "从自定义菜单中移除的项目"
+
+msgid "Recommendation Applied"
+msgstr "推荐已应用"
 
 msgid "Upload..."
 msgstr "上传..."
@@ -189,7 +236,6 @@ msgid ""
 "You can upload files in formats such as gif/jpg/png/webp to create your favorite wallpapers"
 msgstr ""
 "你可以上传gif/jpg/png/webp等格式文件，以创建自己喜欢壁纸。"
-
 
 msgid "Background file list"
 msgstr "背景文件列表"
@@ -305,18 +351,4 @@ msgstr "请选择要删除的文件"
 
 msgid ""
 msgstr ""
-
-
-msgid ""
-msgstr ""
-
-
-msgid ""
-msgstr ""
-
-
-msgid ""
-msgstr ""
-
-
 
