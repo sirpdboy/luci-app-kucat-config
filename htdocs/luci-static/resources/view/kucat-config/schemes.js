@@ -55,6 +55,7 @@ return view.extend({
         o.value('auto', _('Auto'));
         o.value('light', _('Light'));
         o.value('dark', _('Dark'));
+        o.value('sys', _('System'));
         o.default = 'light';
         o.rmempty = false;
 

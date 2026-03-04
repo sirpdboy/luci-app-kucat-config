@@ -27,14 +27,14 @@
 		"write": {
 			"file": {
 				"/tmp/kucat/*": [ "write", "read", "delete", "exec" ],
-				"/tmp/kucat_*": [ "write", "read", "delete" ], 
+				"/tmp/kucat_*": [ "write", "read", "delete" ],
 				"/tmp/upload/*": [ "write", "read", "delete", "exec" ],
 				"/usr/libexec/rpcd/luci.kucatconfig": [ "exec" ],
 				"/www/luci-static/kucat/background/*": [ "write", "read", "delete", "upload" ],  
 				"/www/luci-static/resources/background/*": [ "write", "read", "delete", "upload" ],
 				"/www/luci-static/kucat/custom.css": [ "write", "read" ],
 				"/etc/config/kucat": [ "write" ],
-				"/tmp/": [ "write", "exec" ] 
+				"/tmp/": [ "write", "exec" ]
 			},
 			"ubus": {
 				"file": [ "write", "delete", "exec", "upload", "archive", "md5" ],

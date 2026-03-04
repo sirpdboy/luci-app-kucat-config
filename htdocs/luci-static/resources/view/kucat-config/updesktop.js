@@ -1,4 +1,4 @@
-/*
+                                                      /*
  *  luci-app-kucat-config
  *  Copyright (C) 2021-2026 The Sirpdboy <herboy2008@gmail.com> 
  *
@@ -137,6 +137,7 @@ return view.extend({
                 gap: 2px;
                 align-items: center;
                 flex-wrap: wrap;
+		justify-content: flex-end;
             }
             .batch-action-btn {
                 padding: 6px 12px;
@@ -304,37 +305,7 @@ return view.extend({
         if (files.length > 0) {
             container.appendChild(E('h3', _('Background file list')));
             
-            // 浏览模式切换
-            var viewModeToggle = E('div', { 'class': 'view-mode-toggle' }, [
-                E('button', {
-                    'class': 'view-mode-btn active',
-                    'data-mode': 'list',
-                    'click': ui.createHandlerFn(this, function(ev) {
-                        document.querySelectorAll('.view-mode-btn').forEach(btn => {
-                            btn.classList.remove('active');
-                        });
-                        ev.target.classList.add('active');
-                        listView.style.display = 'table';
-                        gridView.style.display = 'none';
-                        selectedFiles.clear();
-                    })
-                }, _('List View')),
-                E('button', {
-                    'class': 'view-mode-btn',
-                    'data-mode': 'grid',
-                    'click': ui.createHandlerFn(this, function(ev) {
-                        document.querySelectorAll('.view-mode-btn').forEach(btn => {
-                            btn.classList.remove('active');
-                        });
-                        ev.target.classList.add('active');
-                        listView.style.display = 'none';
-                        gridView.style.display = 'grid';
-                        selectedFiles.clear();
-                    })
-                }, _('Grid View'))
-            ]);
-            
-            container.appendChild(viewModeToggle);
+
             
             // 存储选中的文件
             var selectedFiles = new Set();
@@ -415,7 +386,36 @@ return view.extend({
                         })
                     }, _('Delete Selected')),
 
-                    E('div', { 'class': 'selection-info' }, _('Selected: 0 files'))
+                    E('div', { 'class': 'selection-info' }, _('Selected: 0 files')),
+		    
+	       E('div', { 'class': 'view-mode-toggle' }, [
+                E('button', {
+                    'class': 'view-mode-btn active',
+                    'data-mode': 'list',
+                    'click': ui.createHandlerFn(this, function(ev) {
+                        document.querySelectorAll('.view-mode-btn').forEach(btn => {
+                            btn.classList.remove('active');
+                        });
+                        ev.target.classList.add('active');
+                        listView.style.display = 'table';
+                        gridView.style.display = 'none';
+                        selectedFiles.clear();
+                    })
+                }, _('List View')),
+                E('button', {
+                    'class': 'view-mode-btn',
+                    'data-mode': 'grid',
+                    'click': ui.createHandlerFn(this, function(ev) {
+                        document.querySelectorAll('.view-mode-btn').forEach(btn => {
+                            btn.classList.remove('active');
+                        });
+                        ev.target.classList.add('active');
+                        listView.style.display = 'none';
+                        gridView.style.display = 'grid';
+                        selectedFiles.clear();
+                    })
+                }, _('Grid View'))
+                ])
                 ])
             ]);
             
