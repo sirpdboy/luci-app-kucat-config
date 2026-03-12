@@ -51,7 +51,7 @@ jobs:
             echo "Final feed structure:"
             ls -la feed/luci-app-kucat-config/
       - name: Build packages
-        uses: sbwml/openwrt-gh-action-sdk@go1.24
+        uses: sirpdboy/openwrt-gh-action-sdk@go1.26
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: packages_ci
