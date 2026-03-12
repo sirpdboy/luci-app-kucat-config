@@ -32,19 +32,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Prepare source for SDK
-        run: |
-            mkdir -p ./luci-app-kucat-config
-            cp -r . ./luci-app-kucat-config
-            # 或者直接软链接
-            # ln -s $PWD/package/luci-app-kucat-config $PWD/package/feeds/packages_ci/
-
       - name: Build packages
         uses: sbwml/openwrt-gh-action-sdk@go1.24
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: packages_ci
           PACKAGES: luci-app-kucat-config
+          FEED_DIR: ${{ github.workspace }}/luci-app-kucat-config
           NO_REFRESH_CHECK: true
 
       - name: Upload artifacts
