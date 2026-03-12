@@ -38,7 +38,7 @@ jobs:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: packages_ci
           PACKAGES: luci-app-kucat-config
-          FEED_DIR: ${{ github.workspace }}/luci-app-kucat-config
+          FEED_DIR: ${{ github.workspace }}
           NO_REFRESH_CHECK: true
 
       - name: Upload artifacts
